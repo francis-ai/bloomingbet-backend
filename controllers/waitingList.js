@@ -64,7 +64,6 @@ export const addToWaitingList = async (req, res) => {
       `,
     });
 
-
     res.status(201).json({
       message: "Successfully added to waiting list & emails sent",
       data: newEntry,
