@@ -18,7 +18,8 @@ app.use(express.json()); // Parse JSON requests
 // CORS setup
 const allowedOrigins = [
   "http://localhost:3000",           // local dev
-  "https://blooming-bet.vercel.app" // deployed frontend
+  "https://blooming-bet.vercel.app",
+  "https://bloomingbet.com" // deployed frontend
 ];
 
 app.use(cors({
